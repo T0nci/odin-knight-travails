@@ -79,7 +79,7 @@ function knightMoves(startMove, endMove) {
   return moves;
 }
 
-console.log(knightMoves([0, 0], [0, 0])); // [ [ 0, 0 ], [ 1, 2 ], [ 0, 0 ] ]
-console.log(knightMoves([3, 3], [0, 0])); // [ [ 3, 3 ], [ 1, 2 ], [ 0, 0 ] ]
-console.log(knightMoves([0, 0], [7, 7])); // [ [ 0, 0 ], [ 1, 2 ], [ 0, 4 ], [ 1, 6 ], [ 3, 5 ], [ 5, 6 ], [ 7, 7 ] ]
-console.log(knightMoves([0, 0], [7, 0])); // [ [ 0, 0 ], [ 1, 2 ], [ 2, 0 ], [ 3, 2 ], [ 5, 1 ], [ 7, 0 ] ]
+console.log(knightMoves([0, 0], [0, 0])); // [ [ 0, 0 ], [ 1, 2 ], [ 0, 0 ] ] 3 moves
+console.log(knightMoves([3, 3], [0, 0])); // [ [ 3, 3 ], [ 1, 2 ], [ 0, 0 ] ] 3 moves
+console.log(knightMoves([0, 0], [7, 7])); // [ [ 0, 0 ], [ 1, 2 ], [ 0, 4 ], [ 1, 6 ], [ 3, 5 ], [ 5, 6 ], [ 7, 7 ] ] 7 moves
+console.log(knightMoves([0, 0], [7, 0])); // [ [ 0, 0 ], [ 1, 2 ], [ 2, 0 ], [ 3, 2 ], [ 5, 1 ], [ 7, 0 ] ] 6 moves
